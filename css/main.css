@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	
+	background-color: green;
+}
+
+#content{
+	background-color: white;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	
+	padding: 10px;
+}
+
+#content #feedback-form{
+	display: block;
+}
+
+#content #feedback-form form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
