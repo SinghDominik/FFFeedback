@@ -24,7 +24,7 @@
         }
 
         public function process(){
-            //PAGE CODE HERE
+            
             
             return $this->vars;
         }

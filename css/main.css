@@ -27,6 +27,13 @@ body{
 	padding: 10px;
 }
 
+@media (max-width: 480px){
+	#content{
+		width: 100%;
+		height: 100%;
+	}
+}
+
 #content #feedback-form{
 	display: block;
 }
@@ -35,4 +42,26 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+}
+
+#content #feedback-form form input, #content #feedback-form form textarea{
+	margin-bottom: 5px;
+	width: 500px;
+	max-width: 100%;
+}
+
+#content #feedback-form form textarea{
+	margin-bottom: 5px;
+	height: 200px;
+}
+
+#logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo img{
+	height: 200px;
 }
