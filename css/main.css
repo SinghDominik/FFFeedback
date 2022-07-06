@@ -65,3 +65,13 @@ body{
 #logo img{
 	height: 200px;
 }
+
+.error{
+	color: red;
+	font-weight: bold;
+}
+
+.message{
+	color: green;
+	font-weight: bold;
+}

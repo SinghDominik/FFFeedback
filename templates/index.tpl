@@ -9,6 +9,8 @@
             </ul>
 			<strong>Wichtig: Der Name ist optional. Du kannst ihn angeben, musst aber nicht. Das Feedback wird dennoch gespeichert. :)</strong>
 			<div id="feedback-form">
+				[@error]
+				[@message]
 				<form action="index.php" method="POST">
 					<input type="text" name="name" id="name" placeholder="Name (optional)" multiple /><br />
 					<textarea name="feedback" id="feedback" placeholder="Dein Feedback"></textarea>
